@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .header_top{
+    background-color: #001607;
+    width: 100%;
+    }
+    
+    .header_top .header_top_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;/*conteúdo fluído*/
+    }
+    .header_top .header_top_content .logo{
+    flex-basis:330px;
+    padding: 0px;
+    width: 290px;
+    }
+    .header_top .header_top_content .header_top_menu{
+    /*flex-basis = reserva o que sobrar de tela*/
+    flex-basis: calc(100% - 300px);
+    display: flex;
+    /*justify-content = alinhamento de elemento*/
+    justify-content: flex-end;
+    }
+    .header_top_menu ul {
+    display: flex;
+    /*alinha um do lado do outro*/
+    align-items: stretch;
+    }
+    .header_top_menu ul li{
+    list-style: none;/*retira os marcadores*/
+    display: flex;
+    align-items: center;/*alinha na vertical*/
+    }
+    .header_top_menu ul li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #aed494;
+    }
+    
+    .header_top_menu ul li a:hover{
+    background-color: #506456;
+    color: #000000;
+    }
+    
