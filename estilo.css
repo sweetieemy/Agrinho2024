@@ -332,3 +332,20 @@
   font-size: 1.2em;
   line-height: 35px;
   }
+  
+  .titulo{
+    margin-top: 30px;
+    color: #F7F7F7;
+    font-size: 1.4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .codigo{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+  
